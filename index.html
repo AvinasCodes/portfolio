@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avinash Singh - Software Developer</title>
+    <meta name="description" content="Portfolio of Avinash Singh, a passionate software developer crafting elegant digital experiences.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+    <!-- Cursor follower -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Grain overlay -->
+    <div class="grain-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <a href="#" class="nav-logo">AS<span class="accent-dot">.</span></a>
+        <div class="nav-links">
+            <a href="#about" class="nav-link" data-index="01">About</a>
+            <a href="#experience" class="nav-link" data-index="02">Experience</a>
+            <a href="#work" class="nav-link" data-index="03">Work</a>
+            <a href="#publications" class="nav-link" data-index="04">Publications</a>
+            <a href="#skills" class="nav-link" data-index="05">Skills</a>
+            <a href="#contact" class="nav-link" data-index="06">Contact</a>
+        </div>
+        <button class="nav-menu-btn" id="menuBtn" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#about" class="mobile-link" data-index="01">About</a>
+        <a href="#experience" class="mobile-link" data-index="02">Experience</a>
+        <a href="#work" class="mobile-link" data-index="03">Work</a>
+        <a href="#publications" class="mobile-link" data-index="04">Publications</a>
+        <a href="#skills" class="mobile-link" data-index="05">Skills</a>
+        <a href="#contact" class="mobile-link" data-index="06">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-badge reveal-up" id="heroBadge">
+                <span class="badge-dot"></span>
+                Available for work
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line reveal-up" style="--delay: 0.1s">Avinash</span>
+                <span class="title-line reveal-up" style="--delay: 0.2s">Singh<span class="accent-dot">.</span></span>
+            </h1>
+            <p class="hero-subtitle reveal-up" style="--delay: 0.35s">Software Engineer • ASDLC Development</p>
+            <p class="hero-description reveal-up" style="--delay: 0.45s">
+                I build intelligent, high-performance software through modern ASDLC (AI Software Development Life Cycle) workflows - turning complex challenges into scalable, production-ready solutions.
+            </p>
+            <div class="hero-cta reveal-up" style="--delay: 0.55s">
+                <a href="#work" class="btn btn-primary">
+                    View Projects
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+                <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-index reveal-up">01</span>
+                <h2 class="section-title reveal-up">About Me<span class="accent-dot">.</span></h2>
+                <p class="section-subtitle reveal-up">Professional Profile & Technical Journey</p>
+            </div>
+
+            <!-- Main Narrative & Stats Matrix -->
+            <div class="about-hero-grid">
+                <div class="about-intro-card reveal-up" style="--delay: 0.1s">
+                    <div class="profile-badge">
+                        <span class="badge-dot"></span>
+                        B.E. in Computer Engineering
+                    </div>
+                    <h3 class="about-headline">
+                        Software & AI Engineer crafting intelligent systems through modern ASDLC development.
+                    </h3>
+                    <p class="about-body">
+                        I specialize in ASDLC (AI Software Development Life Cycle) development, combining traditional engineering discipline with autonomous agents, LLM-driven workflows, and automated pipelines. My technical journey spans full-stack software development, cloud infrastructure, automated testing, and agentic AI architectures.
+                    </p>
+                    <p class="about-body">
+                        Driven by hands-on engineering, I continuously explore new paradigms - whether architecting agentic RAG workflows with Gemini, engineering mobile systems with React Native and Firebase, or simulating quantum cryptography protocols.
+                    </p>
+
+                    <div class="about-quick-tags">
+                        <span class="about-pill">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                            ASDLC Development
+                        </span>
+                        <span class="about-pill">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                            Computer Engineering Graduate
+                        </span>
+                        <span class="about-pill">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 000 20 14.5 14.5 0 000-20M2 12h20"/></svg>
+                            Full Stack & Cloud
+                        </span>
+                        <span class="about-pill">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+                            Agentic & Generative AI
+                        </span>
+                        <span class="about-pill">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                            Playwright Testing
+                        </span>
+                    </div>
+                </div>
+
+                <div class="about-stats-matrix reveal-up" style="--delay: 0.2s">
+                    <div class="stat-card">
+                        <div>
+                            <span class="stat-number" data-count="6">0</span><span class="stat-suffix">+</span>
+                        </div>
+                        <span class="stat-label">Tech Domains</span>
+                        <span class="stat-sub">AI, Web, Mobile, Cloud, Security & ML</span>
+                    </div>
+                    <div class="stat-card">
+                        <div>
+                            <span class="stat-number" data-count="10">0</span><span class="stat-suffix">+</span>
+                        </div>
+                        <span class="stat-label">Projects Built</span>
+                        <span class="stat-sub">Production apps, research & prototypes</span>
+                    </div>
+                    <div class="stat-card">
+                        <div>
+                            <span class="stat-number" data-count="100">0</span><span class="stat-suffix">%</span>
+                        </div>
+                        <span class="stat-label">Hands-On Driven</span>
+                        <span class="stat-sub">Turning ideas into working software</span>
+                    </div>
+                    <div class="stat-card highlight-stat">
+                        <div class="stat-icon-wrap">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                        </div>
+                        <span class="stat-title">B.E. Graduate</span>
+                        <span class="stat-sub">Computer Engineering Degree</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bento Grid: Career Interests & Domain Matrix -->
+            <div class="about-bento-grid">
+                <!-- Bento Card 1: Career Interests -->
+                <div class="bento-card reveal-up" style="--delay: 0.15s">
+                    <div class="bento-header">
+                        <div class="bento-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="bento-title">Career Interests</h4>
+                            <p class="bento-desc">Specialized areas where I build and innovate</p>
+                        </div>
+                    </div>
+                    <div class="interest-chips">
+                        <div class="interest-chip">
+                            <span class="chip-dot"></span>
+                            <span>Software Development</span>
+                        </div>
+                        <div class="interest-chip">
+                            <span class="chip-dot"></span>
+                            <span>Full Stack Development</span>
+                        </div>
+                        <div class="interest-chip highlight">
+                            <span class="chip-dot"></span>
+                            <span>ASDLC & Agentic AI Engineering</span>
+                        </div>
+                        <div class="interest-chip">
+                            <span class="chip-dot"></span>
+                            <span>Generative AI & LLM Systems</span>
+                        </div>
+                        <div class="interest-chip">
+                            <span class="chip-dot"></span>
+                            <span>Cloud Engineering</span>
+                        </div>
+                        <div class="interest-chip">
+                            <span class="chip-dot"></span>
+                            <span>Data Engineering</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bento Card 2: Domain Experience -->
+                <div class="bento-card bento-wide reveal-up" style="--delay: 0.25s">
+                    <div class="bento-header">
+                        <div class="bento-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="bento-title">Project Experience by Domain</h4>
+                            <p class="bento-desc">Explored and developed across diverse technical fields</p>
+                        </div>
+                    </div>
+                    <div class="domain-grid">
+                        <div class="domain-item">
+                            <span class="domain-tag ai">AI & Emerging</span>
+                            <span class="domain-projects">AutoCRM, FlamingOS</span>
+                        </div>
+                        <div class="domain-item">
+                            <span class="domain-tag web">Web Development</span>
+                            <span class="domain-projects">CricMarkt, CBMS, QuriosNow</span>
+                        </div>
+                        <div class="domain-item">
+                            <span class="domain-tag mobile">Mobile Development</span>
+                            <span class="domain-projects">Optidesk, Crognito</span>
+                        </div>
+                        <div class="domain-item">
+                            <span class="domain-tag sec">Cybersecurity</span>
+                            <span class="domain-projects">QSEC - Quantum Secure Cryptography Communication</span>
+                        </div>
+                        <div class="domain-item">
+                            <span class="domain-tag cloud">Cloud Engineering</span>
+                            <span class="domain-projects">CBMS - Cloud Media Storage</span>
+                        </div>
+                        <div class="domain-item">
+                            <span class="domain-tag ml">Machine Learning</span>
+                            <span class="domain-projects">Face Recognition Voting System</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technical Capabilities Row -->
+            <div class="profile-capabilities reveal-up" style="--delay: 0.35s">
+                <div class="capability-group">
+                    <span class="cap-group-title">Languages & Core Stack</span>
+                    <p class="cap-group-items">Python, JavaScript, SQL, React.js, Next.js, Tailwind CSS, Flask, Node.js, Express.js, Firebase</p>
+                </div>
+                <div class="cap-divider"></div>
+                <div class="capability-group">
+                    <span class="cap-group-title">ASDLC & Emerging Tech</span>
+                    <p class="cap-group-items">ASDLC Development, Agentic Systems, Generative AI, RAG Architectures, LLM Integration, Workflow Automation</p>
+                </div>
+                <div class="cap-divider"></div>
+                <div class="capability-group">
+                    <span class="cap-group-title">DevOps, Cloud & Testing</span>
+                    <p class="cap-group-items">Google Cloud Platform, Firebase, Docker, CI/CD, REST APIs, Git/GitHub, Playwright Testing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience" id="experience">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-index reveal-up">02</span>
+                <h2 class="section-title reveal-up">Experience<span class="accent-dot">.</span></h2>
+            </div>
+            <div class="experience-timeline">
+                <div class="exp-card reveal-up" style="--delay: 0.1s">
+                    <div class="exp-dot"></div>
+                    <div class="exp-content">
+                        <div class="exp-header">
+                            <div>
+                                <h3 class="exp-role">Application Developer Intern</h3>
+                                <p class="exp-company">Specs N Shades</p>
+                            </div>
+                            <span class="exp-date">Dec 2025 - Jul 2026</span>
+                        </div>
+                        <p class="exp-desc">Contributed to the development of OptiDesk, an Optical Store Management System. Involved in application development, database integration, UI implementation, and software functionality.</p>
+                        <div class="project-tags" style="margin-top: 0.75rem">
+                            <span class="tag">React Native</span>
+                            <span class="tag">Expo</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section class="section work" id="work">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-index reveal-up">03</span>
+                <h2 class="section-title reveal-up">Selected Work<span class="accent-dot">.</span></h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1: QSEC -->
+                <article class="project-card reveal-up" style="--delay: 0.1s">
+                    <a href="https://qsec.onrender.com/" target="_blank" rel="noopener noreferrer" style="display: block; text-decoration: none;">
+                        <div class="project-image" style="--accent: #6366f1">
+                            <img src="qsec.png" alt="QSEC - Quantum Secure Cryptography Interface" class="project-img">
+                        </div>
+                    </a>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">Quantum</span>
+                            <a href="https://ijsrset.com/paper/14252.pdf" target="_blank" rel="noopener noreferrer" class="tag" style="background: rgba(99, 102, 241, 0.15); color: #a5b4fc; border: 1px solid rgba(99, 102, 241, 0.3); text-decoration: none;">Published Paper ↗</a>
+                        </div>
+                        <h3 class="project-title">QSEC - Quantum Secure Cryptography</h3>
+                        <p class="project-desc">BB84 quantum key distribution protocol simulation for secure communication, implementing post-quantum cryptographic principles.</p>
+                        <a href="https://qsec.onrender.com/" target="_blank" rel="noopener noreferrer" class="project-link">
+                            View Project
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 2: AutoCRM -->
+                <article class="project-card reveal-up" style="--delay: 0.2s">
+                    <a href="https://github.com/AvinasCodes/AutoCRM" target="_blank" rel="noopener noreferrer" style="display: block; text-decoration: none;">
+                        <div class="project-image" style="--accent: #0ea5e9">
+                            <img src="autocrm.png" alt="AutoCRM - Internal Support & Client Ticket Operations" class="project-img">
+                        </div>
+                    </a>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">RAG</span>
+                            <span class="tag">Gemini</span>
+                            <span class="tag">Agentic AI</span>
+                        </div>
+                        <h3 class="project-title">AutoCRM - Autonomous Support Desk</h3>
+                        <p class="project-desc">AI-powered internal helpdesk and CRM using Retrieval-Augmented Generation (RAG) and Gemini AI to triage client tickets, classify priority, and automate support operations.</p>
+                        <a href="https://github.com/AvinasCodes/AutoCRM" target="_blank" rel="noopener noreferrer" class="project-link">
+                            View Project
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 3: Optidesk -->
+                <article class="project-card reveal-up" style="--delay: 0.1s">
+                    <div class="project-image" style="--accent: #14b8a6">
+                        <div class="project-image-inner">
+                            <div class="project-icon">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">Expo</span>
+                            <span class="tag">Firebase</span>
+                        </div>
+                        <h3 class="project-title">Optidesk - Optical Store Management</h3>
+                        <p class="project-desc">Mobile application for managing optical store operations including inventory, prescriptions, billing, and customer management.</p>
+                        <a href="#" class="project-link">
+                            View Project
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 4: Face Recognition Voting -->
+                <article class="project-card reveal-up" style="--delay: 0.2s">
+                    <a href="https://frvs-kday.onrender.com/" target="_blank" rel="noopener noreferrer" style="display: block; text-decoration: none;">
+                        <div class="project-image" style="--accent: #2563eb">
+                            <img src="frvs.png" alt="FRVS - Face Recognition Voting System" class="project-img">
+                        </div>
+                    </a>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">Computer Vision</span>
+                        </div>
+                        <h3 class="project-title">FRVS - Face Recognition Voting System</h3>
+                        <p class="project-desc">Secure voting system powered by facial recognition and computer vision, ensuring one-person-one-vote integrity through biometric authentication.</p>
+                        <a href="https://frvs-kday.onrender.com/" target="_blank" rel="noopener noreferrer" class="project-link">
+                            View Project
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 5: Crognito -->
+                <article class="project-card reveal-up" style="--delay: 0.1s">
+                    <div class="project-image" style="--accent: #f59e0b">
+                        <div class="project-image-inner">
+                            <div class="project-icon">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Dart</span>
+                        </div>
+                        <h3 class="project-title">Crognito - Email Tracking System</h3>
+                        <p class="project-desc">Email activity and tracking application built with Flutter for real-time monitoring of email opens, clicks, and engagement analytics.</p>
+                        <a href="#" class="project-link">
+                            View Project
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 6: CBMS -->
+                <article class="project-card reveal-up" style="--delay: 0.2s">
+                    <a href="https://cbms.onrender.com/" target="_blank" rel="noopener noreferrer" style="display: block; text-decoration: none;">
+                        <div class="project-image" style="--accent: #8b5cf6">
+                            <img src="cbms.png" alt="CBMS - Cloud Media Storage" class="project-img">
+                        </div>
+                    </a>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Cloud</span>
+                            <span class="tag">Storage</span>
+                            <span class="tag">Web App</span>
+                        </div>
+                        <h3 class="project-title">CBMS - Cloud Media Storage</h3>
+                        <p class="project-desc">Cloud-based media storage and management platform featuring seamless file uploads, multi-file batch processing, and secure asset delivery.</p>
+                        <a href="https://cbms.onrender.com/" target="_blank" rel="noopener noreferrer" class="project-link">
+                            View Project
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications & Honors Section -->
+    <section class="section publications" id="publications">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-index reveal-up">04</span>
+                <h2 class="section-title reveal-up">Publications & Honors<span class="accent-dot">.</span></h2>
+                <p class="section-subtitle reveal-up">Peer-reviewed research and academic presentations</p>
+            </div>
+            <div class="publications-grid">
+                <!-- Publication 1: IJSRSET Research Paper -->
+                <div class="pub-card reveal-up" style="--delay: 0.1s">
+                    <div class="pub-badge-row">
+                        <span class="pub-type-badge journal">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                            Peer-Reviewed Journal
+                        </span>
+                        <span class="pub-date">Apr 2, 2026</span>
+                    </div>
+
+                    <h3 class="pub-title">Quantum Key Based Cryptography Communication</h3>
+                    <p class="pub-journal">International Journal of Scientific Research in Science, Engineering and Technology (IJSRSET) · Volume 13, Issue 8 (March-April 2026)</p>
+                    <p class="pub-desc">
+                        Published research paper on Quantum Key Based Cryptography Communication, exploring secure communication architectures, quantum key distribution (QKD) principles, and BB84 simulation methodologies.
+                    </p>
+
+                    <div class="pub-footer">
+                        <a href="https://ijsrset.com/paper/14252.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                            Read Paper (PDF)
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </a>
+                        <a href="https://qsec.onrender.com/" target="_blank" rel="noopener noreferrer" class="pub-linked-project">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20M2 12h20"/></svg>
+                            Live Simulation: QSEC
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Honor & Award 1: I3PSG 2026 Presentation -->
+                <div class="pub-card award-card reveal-up" style="--delay: 0.2s">
+                    <div class="pub-badge-row">
+                        <span class="pub-type-badge award">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                            Honors & Awards
+                        </span>
+                        <span class="pub-date">Apr 2026</span>
+                    </div>
+
+                    <h3 class="pub-title">Research Paper Presentation - I3PSG 2026</h3>
+                    <p class="pub-journal">Issued by International Journal of Scientific Research in Science, Engineering and Technology (IJSRSET)</p>
+                    <p class="pub-desc">
+                        Presented the research paper <em>Quantum Key Based Cryptography Communication</em> at the <strong>I3PSG 2026</strong> conference in Maharashtra, India. Recognized for technical investigation into quantum cryptographic channels.
+                    </p>
+
+                    <div class="pub-tags">
+                        <span class="tag">Quantum Cryptography</span>
+                        <span class="tag">BB84 Protocol</span>
+                        <span class="tag">Paper Presentation</span>
+                        <span class="tag">I3PSG 2026</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-index reveal-up">05</span>
+                <h2 class="section-title reveal-up">Skills & Tools<span class="accent-dot">.</span></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-group reveal-up" style="--delay: 0.1s">
+                    <h3 class="skill-group-title">Frontend & Mobile</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">React.js / Next.js</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript (ES6+)</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Tailwind CSS / HTML5</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React Native / Expo</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="84"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-group reveal-up" style="--delay: 0.15s">
+                    <h3 class="skill-group-title">Backend & Data</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python / Flask</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js / Express.js</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="86"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL & Databases</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">REST APIs & Auth</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-group reveal-up" style="--delay: 0.2s">
+                    <h3 class="skill-group-title">AI & Emerging Tech</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">ASDLC / Agentic Dev</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Generative AI & LLMs</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">RAG Architectures</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Workflow Automation</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="84"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-group reveal-up" style="--delay: 0.25s">
+                    <h3 class="skill-group-title">Cloud, DevOps & QA</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Google Cloud / Firebase</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="84"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Docker & CI/CD</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Git / GitHub / Bash</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Playwright Automation</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-index reveal-up">06</span>
+                <h2 class="section-title reveal-up">Let's Connect<span class="accent-dot">.</span></h2>
+                <p class="section-subtitle reveal-up">Get in Touch & Collaborate</p>
+            </div>
+
+            <p class="contact-lead reveal-up" style="--delay: 0.1s">
+                Have a project in mind, an opportunity to discuss, or want to collaborate? I'd love to hear from you. Let's build something great together.
+            </p>
+
+            <div class="connect-cards">
+                <!-- Card 1: Email -->
+                <a href="mailto:singhavinash.ce@gmail.com" class="connect-card reveal-up" style="--delay: 0.15s; --card-accent: #8b5cf6">
+                    <div class="connect-card-top">
+                        <div class="connect-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/></svg>
+                        </div>
+                        <span class="connect-badge">Direct Mail</span>
+                    </div>
+                    <div class="connect-card-body">
+                        <span class="connect-card-label">Email</span>
+                        <h3 class="connect-card-title">Send a Message</h3>
+                        <p class="connect-card-value">singhavinash.ce@gmail.com</p>
+                        <span class="connect-card-action">
+                            Write Email
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Card 2: GitHub -->
+                <a href="https://github.com/AvinasCodes/" target="_blank" rel="noopener noreferrer" class="connect-card reveal-up" style="--delay: 0.25s; --card-accent: #3b82f6">
+                    <div class="connect-card-top">
+                        <div class="connect-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+                        </div>
+                        <span class="connect-badge">Repositories</span>
+                    </div>
+                    <div class="connect-card-body">
+                        <span class="connect-card-label">GitHub</span>
+                        <h3 class="connect-card-title">AvinasCodes</h3>
+                        <p class="connect-card-value">Explore open-source code & active builds</p>
+                        <span class="connect-card-action">
+                            View Repositories
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Card 3: LinkedIn -->
+                <a href="https://www.linkedin.com/in/avinashsingh2004/" target="_blank" rel="noopener noreferrer" class="connect-card reveal-up" style="--delay: 0.35s; --card-accent: #0ea5e9">
+                    <div class="connect-card-top">
+                        <div class="connect-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        </div>
+                        <span class="connect-badge">Professional</span>
+                    </div>
+                    <div class="connect-card-body">
+                        <span class="connect-card-label">LinkedIn</span>
+                        <h3 class="connect-card-title">Avinash Singh</h3>
+                        <p class="connect-card-value">Connect on LinkedIn & view career timeline</p>
+                        <span class="connect-card-action">
+                            Connect Profile
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <span class="footer-logo">AS<span class="accent-dot">.</span></span>
+            <p class="footer-text">Designed & Built by Avinash Singh</p>
+            <div class="footer-socials" style="display: flex; gap: 1.25rem;">
+                <a href="mailto:singhavinash.ce@gmail.com" style="color: var(--text-secondary); font-size: 0.85rem; transition: color 0.2s;">Email</a>
+                <a href="https://www.linkedin.com/in/avinashsingh2004/" target="_blank" rel="noopener noreferrer" style="color: var(--text-secondary); font-size: 0.85rem; transition: color 0.2s;">LinkedIn</a>
+                <a href="https://github.com/AvinasCodes/" target="_blank" rel="noopener noreferrer" style="color: var(--text-secondary); font-size: 0.85rem; transition: color 0.2s;">GitHub</a>
+            </div>
+            <p class="footer-year">© 2026</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
